@@ -25,4 +25,4 @@ end
 
 
 
-p prime?(15)
+p prime?(7)
