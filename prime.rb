@@ -11,11 +11,9 @@ def prime?(number)
       if number % digit == 0
         return false
       end
-
     end
   else
     return false
-
   end
 return true
 
