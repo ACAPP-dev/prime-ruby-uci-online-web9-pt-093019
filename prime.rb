@@ -3,9 +3,10 @@ require 'pry'
 def prime?(number)
   number_range = []
   i = 0
-
+  number_digits = 0
   if number > 1
-    p number_range = (2..10).digits.sort
+    number_digits = (2..number)
+    p number_range = number_digits.digits.sort
 
   else
 
