@@ -8,7 +8,7 @@ def prime?(number)
     p number_range = (2..number).to_a
     number_range.each do |digit|
       binding.pry
-      if number % digit
+      if number % digit == 0
         return false
       end
       return true
