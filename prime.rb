@@ -5,7 +5,7 @@ def prime?(number)
   i = 0
   number_digits = 0
   if number > 1
-    p number_digits = (2..number)
+    p number_digits = (2..number).to_a
     binding.pry
     p number_range = number_digits.digits.sort
 
