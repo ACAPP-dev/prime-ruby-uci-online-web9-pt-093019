@@ -5,9 +5,18 @@ def prime?(number)
   i = 0
   number_digits = 0
   if number > 1
-    p number_digits = (2..number).to_a
+    p number_range = (2..number).to_a
+    number_range.each do |digit|
+      if number % digit
+        return false
+      end
+      return true
+
+
+    end
+    
     binding.pry
-    p number_range = number_digits.digits.sort
+    
 
   else
 
