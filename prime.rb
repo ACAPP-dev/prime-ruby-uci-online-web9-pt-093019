@@ -11,19 +11,13 @@ def prime?(number)
       if number % digit == 0
         return false
       end
-      return true
-
 
     end
-
-
-
-
   else
-
-
+    return false
+    
   end
-
+return true
 
 
 
