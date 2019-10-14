@@ -7,6 +7,7 @@ def prime?(number)
   if number > 1
     p number_range = (2..number).to_a
     number_range.each do |digit|
+      binding.pry
       if number % digit
         return false
       end
@@ -15,7 +16,7 @@ def prime?(number)
 
     end
 
-    binding.pry
+    
 
 
   else
