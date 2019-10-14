@@ -2,8 +2,6 @@
 require 'pry'
 def prime?(number)
   number_range = []
-  i = 0
-  number_digits = 0
   if number > 1
     number_range = (2..number-1).to_a
     number_range.each do |digit|
