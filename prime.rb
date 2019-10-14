@@ -6,6 +6,7 @@ def prime?(number)
   number_digits = 0
   if number > 1
     p number_digits = (2..number)
+    binding.pry
     p number_range = number_digits.digits.sort
 
   else
